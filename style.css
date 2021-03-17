@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    /*width: 1400px;*/
+    background-color: #EFE6E4;
+    color: #533738;
+    font-family: Montserrat, sans-serif;
+
+
+}
+a{
+    text-decoration: none;
+    color: #533738;
+    font-family: Montserrat, sans-serif;
+}
+
+button{
+    font-family: Montserrat, sans-serif;
+    background-color: #CC8B86;
+    border: none;
+    width: 310px;
+    height: 74px;
+    font-size: 20px;
+    color: #533738;
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    line-height: 62px;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #533738;
+}
+
+h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #533738;
+}
+
+p{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+ul{
+    list-style: none;
+}
+
+cite{
+    font-style: normal;
+}
+/*Header*/
+/*Menu */
+.header-page{
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    font-size: 16px;
+    line-height: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-menu{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-menu li{
+    margin-right: 26px;
+}
+
+.title{
+
+    min-height: 715px;
+    background: url("img/background-main.png") no-repeat center;
+    background-size: cover;
+    padding-top: 184px;
+    /*padding-left: 432px;*/
+    padding-left: 23%;
+    margin-bottom: 24px;
+    margin-top: 0;
+
+}
+
+.title h1{
+
+    width: 493px;
+    margin-top: 0;
+
+}
+.title p{
+    width: 368px;
+
+}
+
+.to-request{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    background-color: #CC8B86;
+
+    border: none;
+    width: 310px;
+    height: 74px;
+    font-size: 20px;
+    color: #533738;
+}
+
+/*About us*/
+.about-us{
+
+    margin-top: 0;
+
+}
+
+.about-us h2{
+    text-align: center;
+    padding-top: 70px;
+}
+.about-us .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-us .text{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-us .ptext{
+    width: 528px;
+
+}
+.about-us img{
+    min-width: 445px;
+    margin-right: 63px;
+}
+.number{
+    min-height: 273px;
+    display: flex;
+
+    background-color: #8D7370;
+    color: #FFFFFF;
+    justify-content: space-around;
+
+}
+
+.number li{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.number h3{
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+
+}
+.number .li-number{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    margin-top: 0;
+
+
+}
+
+.our-projects{
+    min-height: 1099px;
+}
+.our-projects h2{
+    margin-left: 20%;
+}
+
+.our-projects .projects-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+
+    justify-content: center;
+
+
+
+}
+
+.projects-list li{
+
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+
+    background: rgba(100, 72, 69, 1) url("img/hover.png") no-repeat;
+}
+
+
+.projects-img{
+    display: block;
+
+    opacity: 1;
+}
+
+.projects-img:hover{
+    opacity: 0.2;
+}
+
+.next-view{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+
+    margin-top: 0;
+
+}
+.next-view::after{
+    content: url("img/Arrow.png");
+    display: block;
+    width: 60px;
+    margin-left: 10px;
+}
+
+
+.our-team{
+    background-color: #E2C4BA;
+    min-height: 998px;
+}
+
+.our-team h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team-list{
+    display: grid;
+    grid-template-columns: repeat(3 , min-content);
+    row-gap: 10px;
+    column-gap: 38px;
+    justify-content: center;
+}
+
+.work-list{
+    list-style: none;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+}
+
+.work-list li{
+    width: 285px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.num{
+    counter-increment: myCounter;
+    content:counter(myCounter);
+    color: white;
+    background: #8D7370;
+    display: grid;
+
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+    align-items: center;
+}
+
+.comments{
+    min-height: 658px;
+}
+
+.comments h2{
+    text-align: center;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.comment blockquote{
+    width: 407px;
+    margin-right: 20px;
+}
+.comment img{
+    min-width: 407px;
+    display: grid;
+    margin-bottom: 24px;
+}
+.comment-before, .comment-after{
+
+    content: url("img/Arrow-after.svg");
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #CC8B86;
+    width: 72px;
+    height: 72px;
+    margin: 29px;
+}
+.comment-before{
+    transform: rotate(180deg);
+}
+
+
+
+.request{
+    background-color: #8D7370;
+    min-height: 624px;
+    display: flex;
+    justify-content: center;
+}
+
+.request h2{
+    color: #FFFFFF;
+}
+
+.request p{
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 507px;
+}
+.request-form{
+    margin-right: 20px;
+}
+
+.request-form input{
+    display: block;
+    background-color: #8D7370;
+    color: #F6EDE9;
+
+    width: 508px;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    border-color: transparent;
+    border-bottom-color: #FFFFFF;
+
+    margin-bottom: 35px;
+}
+
+
+.request-form input::placeholder{
+    color: #F6EDE9;
+}
+
+.page-footer{
+    display: flex;
+    margin: 37px 100px;
+}
+
+.organization{
+    margin-left: auto;
+}
+
+.address{
+    margin-left: 42px;
+}
+
+
