@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
-    /*width: 1400px;*/
+    min-width: 1400px;
     background-color: #EFE6E4;
     color: #533738;
     font-family: Montserrat, sans-serif;
